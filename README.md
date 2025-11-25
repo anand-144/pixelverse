@@ -1,16 +1,151 @@
-# React + Vite
+## 🎮 PIXELVERSE — A Retro Pixel Web Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"> <img src="https://img.shields.io/badge/Style-Pixel%20Art-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/Built%20With-React%20%2B%20Vite-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Animation-GSAP-88d870?style=for-the-badge" /> <img src="https://img.shields.io/github/license/anand-144/pixelverse?style=for-the-badge" /> </p> <p align="center"> <b>A retro-gaming–inspired interactive web UI featuring Pac-Man, pixel art visuals, GSAP animations, arcade sound effects, and more.</b> </p>
 
-Currently, two official plugins are available:
+# 🕹️ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PixelVerse is a high-polish retro UI experience built using React, GSAP, TailwindCSS, and pixel-art sprites.
+This project blends modern frontend techniques with nostalgic arcade aesthetics:
 
-## React Compiler
+🟡 Animated Pac-Man roaming system
+👻 Ghost AI that roams + chases Pac-Man
+🎧 Arcade waka-waka sound effect
+⚡ Floating pixel sprites & parallax hero section
+🧭 Pixel-styled navigation with animated logo
+🎨 Retro card UI, borders, and shadow effects
+🌐 Fully responsive layout with mobile navigation
+Perfect for fun personal projects, creative landing pages, game studio sites, and UI experiments.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Live Demo
 
-## Expanding the ESLint configuration
+Coming Soon…
+(Add your Netlify or Vercel link here once deployed!)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📸 Screenshots
+### 🟡 PixelVerse UI Preview
+
+<p align="center">
+  <img src="https://ibb.co/JWNPTfF4" alt="PixelVerse Screenshot" width="700"/>
+</p>
+
+
+# ✨ Features
+
+# ⚡ GSAP Animations Everywhere
+
+    Hero parallax effect
+    Floating pixel sprites
+    Step-based retro animations
+    Logo pulse animation
+
+# 🧭 Pixel UI Components
+
+    Pixel buttons with shadows
+    Retro navigation bar
+    Pixel footer with animated logo
+
+# 🔊 Sound FX
+
+    Looping waka-waka Pac-Man effect
+    Auto pause/resume on scroll
+
+# 🛠️ Tech Stack
+
+| Category     | Technologies                     |
+| ------------ | -------------------------------- |
+| Frontend     | React, Vite                      |
+| Styling      | TailwindCSS                      |
+| Animation    | GSAP (ScrollTrigger, MotionPath) |
+| State / Data | React Query                      |
+| Icons        | Lucide Icons                     |
+| Assets       | Pixel sprites, SVGs, GIFs        |
+| Audio        | HTML5 Audio API                  |
+
+
+# 📁 Project Structure
+
+pixelverse/
+│
+├── public/
+│   └── sounds/         # waka.mp3 etc.
+│
+├── src/
+│   ├── assets/         # pixel graphics & sprites
+│   ├── components/
+│   │     ├── GlobalPacman.jsx
+│   │     ├── Navigation.jsx
+│   │     ├── Hero.jsx
+│   │     ├── Footer.jsx
+│   │     └── PixelButton.jsx
+│   │     └── Button.jsx
+│   │     └── Contact.jsx
+│   │     └── Features.jsx
+│   │     └── NavLink.jsx
+│   │     └── PixelCard.jsx
+│   │     └── PixelCursor.jsx
+│   │     └── Pricing.jsx
+│   │     └── ScrollToTop.jsx
+│   │     └── ToolTipProvider.jsx
+│   │
+│   ├── pages/
+│   │     ├── index.jsx
+│   │     └── NotFound.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│   └── index.css
+│
+└── README.md
+
+# ⚙️ Installation & Setup
+
+Clone the repository
+git clone https://github.com/anand-144/pixelverse
+cd pixelverse
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# 🎨 Customization
+
+You can easily customize:
+Pac-Man sprites
+Ghost designs
+Sound effects
+Colors (Tailwind)
+Animation timings
+Navigation labels
+PixelVerse is meant to be modular and hackable.
+
+# 🤝 Contributing
+
+Contributions are welcome!
+You may contribute with:
+
+  🐛 Bug fixes
+  🎨 Pixel art assets
+  ✨ New animations
+  🧠 Improved ghost AI logic
+  📦 New components
+
+# ⭐ Support PixelVerse
+
+If you like this project:
+
+🌟 Star the repo
+🍴 Fork it
+🔄 Submit PRs
+💬 Share it with dev friends
+
+Your support motivates more retro UI experiments.
+
+# 🎉 Enjoy the Arcade!
+
+Made with 🎮 by Anand Singh
+Powered by pixels, nostalgia, and modern frontend magic 🎮✨
