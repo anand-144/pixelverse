@@ -23,10 +23,7 @@ Coming Soon…
 
 # 📸 Screenshots
 ### 🟡 PixelVerse UI Preview
-
-<p align="center">
-  <img src="https://ibb.co/JWNPTfF4" alt="PixelVerse Screenshot" width="700"/>
-</p>
+![Screenschot](https://i.postimg.cc/W35R162K/Screenshot-2025-11-26-012146.png)
 
 
 # ✨ Features
