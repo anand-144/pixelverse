@@ -18,8 +18,10 @@ Perfect for fun personal projects, creative landing pages, game studio sites, an
 
 # 🚀 Live Demo
 
-Coming Soon…
-(Add your Netlify or Vercel link here once deployed!)
+<a href="https://pixelverse-delta.vercel.app/" target="_blank">
+  Click here to see PixelVerse
+</a>
+
 
 # 📸 Screenshots
 ### 🟡 PixelVerse UI Preview
